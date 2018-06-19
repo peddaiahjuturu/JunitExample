@@ -18,6 +18,8 @@ public class TestHelloWorld {
 	   @Test
 	   public void testHelloEmpty() 
 	   {
+		   h.setName("");
+		   h.setMessage("");
 	      assertEquals(h.getName(),"");
 	      assertEquals(h.getMessage(),"");
 	   }
