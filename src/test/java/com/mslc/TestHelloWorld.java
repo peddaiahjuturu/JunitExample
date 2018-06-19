@@ -19,7 +19,7 @@ public class TestHelloWorld {
 	   public void testHelloEmpty() 
 	   {
 	      assertEquals(h.getName(),"");
-	      assertEquals(h.getMessage(),"Hello!");
+	      assertEquals(h.getMessage(),"");
 	   }
 		
 	   @Test
@@ -27,6 +27,6 @@ public class TestHelloWorld {
 	   {
 	      h.setName("World");
 	      assertEquals(h.getName(),"World");
-	      assertEquals(h.getMessage(),"Hello World!");
+	      assertEquals(h.getMessage(),"");
 	   }
 }
