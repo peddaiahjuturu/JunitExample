@@ -30,6 +30,6 @@ public class TestHelloWorld {
 	      h.setName("World");
 		    h.setMessage("");
 	      assertEquals(h.getName(),"World");
-	      assertEquals(h.getMessage(),"");
+	      assertEquals(h.getMessage(),"World!");
 	   }
 }
